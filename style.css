@@ -18,6 +18,16 @@
 
 }
 
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50; /* Adjust as needed */
+    background-color: white; /* Background color of the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
 .btn-custom {
     border: 2px solid black;
     padding: 0.5rem;
@@ -35,4 +45,30 @@
 
 .red-color{
     color: #DF2D2A;
+}
+
+.circles{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 3px 2px 0px 1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 3px 2px 0px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 2px 0px 1px rgba(0,0,0,1);
+}
+
+.main-pic{
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
+}
+
+.circle-pic{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
 }
