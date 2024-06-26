@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Angelo Bergado Portfolio</title>
+    <script src="assets/tailwind/3.4.4"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    hello world
+
+<body class="bg-custom-background">
+    <div class="flex justify-center">
+        <img src="assets/img/logo.png" class="mt-2 mb-2 w-[80px] h-[70px] md:w-[100px] md:h-[90px]" alt="Logo">
+    </div>
+    <div class="nav-custom-border flex justify-between bg-white px-10 p-5 items-center">
+        <div class="hidden md:block">
+            <ul class="flex gap-5 text-xl">
+                <li class="font-bold"><a href="#hero">HOME</a></li>
+                <li>ABOUT</li>
+                <li>SKILLS</li>
+                <li>PROJECTS</li>
+            </ul>
+        </div>
+        <div class="block md:hidden">
+            <img src="assets/img/landscape.png" class="w-[125px] h-[35px]" alt="Landscape logo">
+        </div>
+        <div>
+            <a href="#contact" class="btn-custom red-bg">CONTACT</a>
+        </div>
+    </div>
+
+    <section id="hero">
+        <div class="flex bg-blue-500 px-10">
+            <div class="name w-1/2 p-20">
+                <p>Hello, I am <span class="red-color">Angelo</span></p>
+                <p>Web Developer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nostrum corporis accusantium neque debitis quas iusto consequuntur ipsam earum, autem quam ratione, beatae dolore ex hic laudantium, laboriosam reprehenderit deleniti.</p>
+                <a href="#contact" class="btn-custom red-bg">RESUME</a>
+            </div>
+            <div class="picture w-1/2">
+                asd
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
